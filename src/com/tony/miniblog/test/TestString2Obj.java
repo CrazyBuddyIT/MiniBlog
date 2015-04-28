@@ -1,6 +1,7 @@
 package com.tony.miniblog.test;
 
 /**
+ * Used to convert a String to Object.
  * Created by Tony on 2015/3/15 0015.
  */
 public class TestString2Obj {
