@@ -31,11 +31,11 @@ public class TestString2Obj {
             return name;
         }
 
-		@override
-		public void toString(){
-			StringBuilder sb = new StringBuilder();
-			sb.append("User[ name="+this.name+",id="+this.id+"]");
-			return sb.toString();
-		}
+	@override
+	public void toString(){
+	    StringBuilder sb = new StringBuilder();
+	    sb.append("User[ name="+this.name+",id="+this.id+"]");
+	    return sb.toString();
+	}
     }
 }
