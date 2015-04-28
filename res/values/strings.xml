@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MINI博客</string>
+    <string name="version_info">
+        <b>| MINI 博客 v1.0 |</b>\n\r
+    </string>
+    <string name="hotblogs">热门微博</string>
+    <string name="friendsblog">好友动态</string>
+    <string name="relatedme">与我相关</string>
+    <string name="myblogscenter">个人中心</string>
+
+    <string name="p2refresh_head_load_more">加载更多</string>
+    <string name="p2refresh_end_load_more">更 多</string>
+    <string name="p2refresh_end_click_load_more">点击加载</string>
+    <string name="p2refresh_release_refresh">松开刷新</string>
+    <string name="p2refresh_pull_to_refresh">下拉刷新</string>
+    <string name="p2refresh_doing_head_refresh">正在刷新&#8230;</string>
+    <string name="p2refresh_doing_end_refresh">加载中&#8230;</string>
+    <string name="p2refresh_refresh_lasttime">最近更新&#160;&#058;&#160;</string>
+    <string name="image_desc">图片</string>
+
+    <string-array name="app_navgation">
+        <item name="hotBlogs">热门微博</item>
+        <item name="friendsBlogs">好友动态</item>
+        <item name="relatedMeBlogs">与我相关</item>
+        <item name="personalCenter">个人中心</item>
+    </string-array>
+</resources>

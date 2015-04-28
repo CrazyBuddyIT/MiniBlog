@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_main"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@android:color/white"
+        >
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="60dp"
+                  android:id="@+id/layout_main_titlebar"
+                  android:background="@color/red"
+                  android:gravity="center">
+
+        <TextView android:layout_width="0dp"
+                  android:id="@+id/main_tab_hotblogs"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:text="@string/hotblogs"
+                  android:textSize="16sp"
+                  android:textColor="@android:color/white"/>
+
+        <TextView android:layout_width="0dp"
+                  android:id="@+id/main_tab_friendsblog"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:text="@string/friendsblog"
+                  android:textSize="16sp"
+                  android:textColor="@android:color/white"/>
+
+        <TextView android:layout_width="0dp"
+                  android:id="@+id/main_tab_relatedme"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="@string/relatedme"
+                  android:gravity="center"
+                  android:textSize="16sp"
+                  android:textColor="@android:color/white"/>
+
+        <TextView android:layout_width="0dp"
+                  android:id="@+id/main_tab_myblogs"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:text="@string/myblogscenter"
+                  android:textSize="16sp"
+                  android:textColor="@android:color/white"/>
+    </LinearLayout>
+    <ImageView
+            android:id="@+id/main_iv_cursor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/cursor_title"/>
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/main_vp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:flipInterval="30"
+            android:persistentDrawingCache="animation">
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
+

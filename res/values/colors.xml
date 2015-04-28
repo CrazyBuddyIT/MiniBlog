@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="light_green">#00CC00</color>
+        <color name="red">#FF0033</color>
+        <color name="purple">#8B33CC</color>
+        <color name="transparent">#00000000</color>
+        <color name="pull_refresh_textview">#000000</color>
+        <color name="gold">#000000</color>
+        <color name="pcenter_bg_lightgray">#F0F0F0</color>
+</resources>
